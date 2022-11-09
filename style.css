@@ -1,0 +1,205 @@
+@font-face {
+    font-family: Mont-ExtraLight;
+    src: url(/font/Mont-ExtraLight.otf);
+}
+@font-face {
+    font-family: Mont-Bold;
+    src: url(/font/Mont-Bold.otf);
+}
+@font-face {
+    font-family: BebasNeue-Regular;
+    src: url(/font/BebasNeue-Regular.ttf);
+}
+
+body {
+    margin: 0;
+
+}
+/* Navbar !!! */
+.navbar {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+    height: 55px;
+    background-color:rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    color: aliceblue;
+    align-items: center;
+    z-index: 10;
+    position: fixed;
+    white-space: nowrap;
+}
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+}
+.nav-item {
+    margin-left: 22px;
+    display: flex;
+}
+.mais-azul {
+    color: #263CFF;
+    font-size: 16px; 
+}
+.nav-infos{
+    display: flex;
+    justify-content: right;
+    margin-right: 70px;
+    height: 25px;  
+}
+.nav-welcome{
+    margin-left: 70px;    
+}
+.nav-img{
+    width: 22px;
+    height: 22px;
+}
+.fix-nav-img{
+    margin-right: 20px;
+}
+/* Background, Logo e Compra de ingressos !!! */
+.background{
+    background-image: url(/img/background.png);
+    height: 619px;
+    background-color: #0F0F0F;
+    background-position: center;
+    background-size: cover;   
+}
+.style-letters{
+    font-family: Mont-Bold;
+    font-style: normal;
+    font-size: 14.5px;
+}
+.style-letters2{
+    color: #FFBC16;
+}
+.logo-cineflix{
+    width: 263px;
+    height: 190px;
+}
+.fix-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-ticket{
+    height: 40px;
+    width: 135px;
+    border: 1.47611px dashed #FFBC16;
+    background-color: transparent;
+    color: #f9f9f9;
+    margin-top: 45px;
+    border-width: 2px;
+}
+.font-btn{
+    font-family: BebasNeue-Regular;
+    font-style: normal;
+    font-size: 16.4px;
+    
+}
+/* Quem somos ??? */
+.who-we-are{
+    width: 100%;
+    height: 530px;
+    background-color: #0F0F0F;
+    display: flex;
+    align-items: center;
+    
+}
+
+.box-text{
+    width: 520px;
+    height: 100%;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.text1{
+    font-family: BebasNeue-Regular;
+    font-size: 34px;
+    color: #f9f9f9;
+    line-height: 30px;
+}
+.text2{
+    font-family: Mont-ExtraLight;
+    font-size: 14px;
+    color: #f9f9f9;
+    line-height: 27px;
+    padding-top: 20px;
+}
+.btn-cineflix{
+    height: 49px;
+    width: 180px;
+    background-color: transparent;
+    color: #f9f9f9;
+    border-color:#FFBC16;
+}
+.font-cineflix{
+    font-family: BebasNeue-Regular;
+    font-size: 22px;
+}
+.fix-btn-cineflix{
+    padding-top: 20px;
+}
+
+.img-cineflix{
+    width: 520px;
+    padding-left: 180px;
+}
+
+/* Trailers em destaque !!! */
+
+.trailers-bg{
+    height: 550px;
+    background-color:#191919 ;
+    width: 100%;
+}
+
+.trailers-box{
+    padding-top: 80px;
+    padding-left: 70px;
+}
+
+.trailers-text{
+    font-family: BebasNeue-Regular;
+    color: #f9f9f9;
+    font-size: 32px;
+    width: 100%;
+    height: 43px;    
+}
+
+.carousel{
+    display: flex;
+    
+}
+
+.images{ 
+    padding-left: 20px;
+}
+.images2{
+    width: 382px;
+}
+
+.btn-slider{
+    background-color: transparent;
+    width: 34px;
+    height: 34px;
+    border: 2px solid #f9f9f9;
+    margin-right: 10px;
+    
+}
+.seta{
+    color: #FFBC16;
+    font-size: 20px;
+
+}
+
+.wrap-btn-slide{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 82px;
+    padding-top: 10px;
+}
