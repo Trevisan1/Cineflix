@@ -173,14 +173,32 @@ body {
 
 .carousel{
     display: flex;
-    
+    flex-direction: column;
+}
+.filmes{
+    display: flex;
 }
 
-.images{ 
-    padding-left: 20px;
+.legenda-filmes{
+    display: flex;
 }
-.images2{
+.bg-links{
     width: 382px;
+    height: 50px;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gap-links{
+    margin-left: 20px;
+}
+.gap-link-filme{
+    margin-top: -5px;
+}
+.gap-filmes{
+    margin-left: 20px;
+
 }
 
 .btn-slider{
@@ -189,6 +207,7 @@ body {
     height: 34px;
     border: 2px solid #f9f9f9;
     margin-right: 10px;
+   
     
 }
 .seta{
@@ -198,8 +217,9 @@ body {
 }
 
 .wrap-btn-slide{
-    display: flex;
-    justify-content: flex-end;
+    position: relative;
+    left: 1101px;
+    top: 10px;    
     padding-right: 82px;
     padding-top: 10px;
 }
