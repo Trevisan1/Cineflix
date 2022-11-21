@@ -2,11 +2,17 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="stylesheet" href="style.css">
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cineflix</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Swiper CSS  -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -72,16 +78,22 @@
                 <div>TRAILERS EM DESTAQUE</div>
             </div>
             <div class="carousel">
-                <div class="filmes">
-                    <iframe width="382" height="220" src="https://www.youtube.com/embed/oLCeh_pqjes" title="Minions 2: A Origem de Gru | Trailer Oficial (Universal Pictures) HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe class="gap-filmes" width="382" height="220" src="https://www.youtube.com/embed/wBDLRvjHVOY" title="Baz Luhrmann’s ELVIS | Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe class="gap-filmes" width="382" height="220" src="https://www.youtube.com/embed/rkbBLgpKy8U" title="Papai é Pop | Trailer Oficial Legendado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="filmes swiper-wrapper">
+                    <div>
+                        <iframe width="382" height="220" src="https://www.youtube.com/embed/oLCeh_pqjes" title="Minions 2: A Origem de Gru | Trailer Oficial (Universal Pictures) HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <iframe class="gap-filmes" width="382" height="220" src="https://www.youtube.com/embed/wBDLRvjHVOY" title="Baz Luhrmann’s ELVIS | Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <iframe class="gap-filmes" width="382" height="220" src="https://www.youtube.com/embed/rkbBLgpKy8U" title="Papai é Pop | Trailer Oficial Legendado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
 
                 </div>
                 <div class="legenda-filmes">
-                    <div class="bg-links gap-link-filme"><span>Minions 2</span> </div>   
-                    <div class="bg-links gap-links gap-link-filme"><span>Elvis</span></div> 
-                    <div class="bg-links gap-links gap-link-filme"><span>Papai é Pop</span></div>
+                    <div class="bg-links gap-link-filme"><span class="color-films">Minions 2</span> </div>   
+                    <div class="bg-links gap-links gap-link-filme"><span class="color-films">Elvis</span></div> 
+                    <div class="bg-links gap-links gap-link-filme"><span class="color-films">Papai é Pop</span></div>
                 </div>
             </div>
             <div class="wrap-btn-slide">
